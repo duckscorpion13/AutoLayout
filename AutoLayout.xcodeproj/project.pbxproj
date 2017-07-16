@@ -12,6 +12,8 @@
 		F92D780D1F1654F2004DC18E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92D780B1F1654F2004DC18E /* Main.storyboard */; };
 		F92D780F1F1654F2004DC18E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92D780E1F1654F2004DC18E /* Assets.xcassets */; };
 		F92D78121F1654F2004DC18E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92D78101F1654F2004DC18E /* LaunchScreen.storyboard */; };
+		F9F18E691F1B2F7600577326 /* pageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F18E681F1B2F7600577326 /* pageVC.swift */; };
+		F9F18E6B1F1B34A800577326 /* cttVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F18E6A1F1B34A800577326 /* cttVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F92D780E1F1654F2004DC18E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F92D78111F1654F2004DC18E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F92D78131F1654F2004DC18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F18E681F1B2F7600577326 /* pageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageVC.swift; sourceTree = "<group>"; };
+		F9F18E6A1F1B34A800577326 /* cttVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cttVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				F92D78071F1654F2004DC18E /* AppDelegate.swift */,
+				F9F18E681F1B2F7600577326 /* pageVC.swift */,
 				F92D78091F1654F2004DC18E /* ViewController.swift */,
 				F92D780B1F1654F2004DC18E /* Main.storyboard */,
+				F9F18E6A1F1B34A800577326 /* cttVC.swift */,
 				F92D780E1F1654F2004DC18E /* Assets.xcassets */,
 				F92D78101F1654F2004DC18E /* LaunchScreen.storyboard */,
 				F92D78131F1654F2004DC18E /* Info.plist */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F92D780A1F1654F2004DC18E /* ViewController.swift in Sources */,
+				F9F18E691F1B2F7600577326 /* pageVC.swift in Sources */,
+				F9F18E6B1F1B34A800577326 /* cttVC.swift in Sources */,
 				F92D78081F1654F2004DC18E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 				F92D78181F1654F2004DC18E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
